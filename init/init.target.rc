@@ -157,3 +157,10 @@ on early-boot && property:persist.vendor.pcie.boot_option=*
 on shutdown
     write /sys/kernel/qcom_rproc/shutdown_in_progress 1
     stop vendor.per_proxy
+
+on property:vendor.post_boot.parsed=1
+    # dex2oat settings
+    setprop dalvik.vm.dex2oat-cpu-set 0,1,2,3,4,5
+    setprop dalvik.vm.dex2oat-threads 4
+    setprop dalvik.vm.image-dex2oat-cpu-set 0,1,2,3,4,5
+    setprop dalvik.vm.image-dex2oat-threads 4
