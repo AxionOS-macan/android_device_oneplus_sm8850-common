@@ -96,6 +96,9 @@ PRODUCT_PACKAGES += \
     android.hardware.boot-service.qti \
     android.hardware.boot-service.qti.recovery
 
+# Bypass Charging Tile
+$(call inherit-product-if-exists, device/oneplus/sm8850-common/bypass_charging/bypasscharging.mk)
+
 # Camera
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider-V3-ndk.vendor

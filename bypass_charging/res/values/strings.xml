@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bypass Charging Tile</string>
+    <string name="bypass_charging_tile_label">Bypass Charging</string>
+    <string name="bypass_charging_tile_subtitle_on">On</string>
+    <string name="bypass_charging_tile_subtitle_off">Off</string>
+</resources>
