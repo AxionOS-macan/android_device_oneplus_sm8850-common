@@ -666,12 +666,10 @@ odm/lib64/libdisplayaidlapis.so
 odm/lib64/libdisplayfossfeature_nature.so
 odm/lib64/libdpaservice.so
 odm/lib64/libstc_color_feature.so
-odm/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so
 vendor/lib64/libPanelChaplin.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libcwb_client_vendor.so
 vendor/lib64/libcwb_qcom_aidl.so
 vendor/lib64/libdtlm.so
-vendor/lib64/vendor.oplus.hardware.displaycolorfeature-V1-ndk.so;MODULE_SUFFIX=_vendor
 
 # OPLUS Log Core
 odm/bin/oldc_vnd
