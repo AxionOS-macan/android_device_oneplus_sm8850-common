@@ -1172,6 +1172,19 @@ vendor/etc/thermal-engine.conf
 vendor/lib64/libqpt.so
 vendor/lib64/libthermalclient.so
 
+# URCC / UAH resource control (thermal mitigation enforcement used by horae)
+# Note: vendor.oplus.hardware.urcc-V1-ndk is built from source via the
+# aidl_interface "vendor.oplus.hardware.urcc" in hardware/oplus, not prebuilt.
+odm/bin/hw/vendor.oplus.hardware.urcc-service
+odm/lib64/liboplus-uah-client.so
+odm/lib64/libuahcore.so
+odm/lib64/liburcccore.so
+odm/etc/uah/uahconfig.pb
+odm/etc/init/vendor.oplus.hardware.urcc-service.rc
+odm/etc/vintf/manifest/vendor.oplus.hardware.urcc-service.xml
+system_ext/lib64/liboplus-uah-client.so
+system_ext/lib64/libUahPerf_Jni.so
+
 # Time services
 vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
