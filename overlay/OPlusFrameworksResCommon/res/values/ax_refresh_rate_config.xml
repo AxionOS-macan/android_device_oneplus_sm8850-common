@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+    <!-- Dynamic mode uses only 60/90/120 Hz. Manual and per-app modes may still use
+         higher panel modes such as 144/165 Hz. -->
+    <integer name="config_axDynamicMaxRefreshRate">120</integer>
+    <integer name="config_axDynamicLowRefreshRate">90</integer>
+    <integer name="config_axInteractiveRefreshRate">120</integer>
+
+    <!-- Apps in this list can use the full dynamic range up to 120 Hz. Home/launcher
+         activities are also allowed by activity type, even if their package is not listed. -->
+    <string-array name="config_axDynamicFullRangePackages" translatable="false">
+        <item>com.android.launcher3</item>
+        <item>com.google.android.apps.nexuslauncher</item>
+        <item>com.oplus.launcher</item>
+        <item>app.lawnchair</item>
+        <item>ch.deletescape.lawnchair.plah</item>
+
+        <!-- System settings and customization -->
+        <item>com.android.settings</item>
+        <item>org.lineageos.lineageparts</item>
+        <item>com.android.axion.axionparts</item>
+        <item>com.android.axion.axthemestore</item>
+        <item>com.android.axion.themepicker</item>
+        <item>com.google.android.apps.wallpaper</item>
+        <item>com.android.wallpaper</item>
+        <item>com.android.wallpaper.livepicker</item>
+        <item>com.android.customization.themes</item>
+    </string-array>
+
+    <!-- Low-demand packages are capped to the lower dynamic range, normally 60-90 Hz.
+         Add or remove package names here to adjust future behavior. -->
+    <string-array name="config_axDynamicLowRefreshPackages" translatable="false">
+        <!-- Social feeds and messaging -->
+        <item>com.facebook.katana</item>
+        <item>com.facebook.lite</item>
+        <item>com.instagram.android</item>
+        <item>com.instagram.lite</item>
+        <item>com.twitter.android</item>
+        <item>com.reddit.frontpage</item>
+        <item>com.pinterest</item>
+        <item>com.linkedin.android</item>
+        <item>com.snapchat.android</item>
+        <item>com.discord</item>
+        <item>org.telegram.messenger</item>
+        <item>org.telegram.plus</item>
+        <item>org.thunderdog.challegram</item>
+        <item>com.whatsapp</item>
+        <item>com.whatsapp.w4b</item>
+        <item>jp.naver.line.android</item>
+        <item>com.viber.voip</item>
+        <item>com.skype.raider</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.sina.weibo</item>
+        <item>com.xingin.xhs</item>
+        <item>com.zhihu.android</item>
+
+        <!-- Short video and streaming -->
+        <item>com.google.android.youtube</item>
+        <item>com.google.android.apps.youtube.music</item>
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.zhiliaoapp.musically.go</item>
+        <item>com.ss.android.ugc.trill</item>
+        <item>com.ss.android.ugc.aweme</item>
+        <item>com.ss.android.ugc.aweme.lite</item>
+        <item>com.netflix.mediaclient</item>
+        <item>com.amazon.avod.thirdpartyclient</item>
+        <item>com.disney.disneyplus</item>
+        <item>com.hulu.plus</item>
+        <item>com.hbo.hbonow</item>
+        <item>com.hbo.max</item>
+        <item>com.maxstream</item>
+        <item>com.spotify.music</item>
+        <item>com.soundcloud.android</item>
+        <item>com.apple.android.music</item>
+        <item>tv.twitch.android.app</item>
+        <item>tv.danmaku.bili</item>
+        <item>com.tencent.qqlive</item>
+        <item>com.qiyi.video</item>
+        <item>com.youku.phone</item>
+
+        <!-- Reading, shopping, travel, maps, mail, and other low-demand apps -->
+        <item>com.google.android.gm</item>
+        <item>com.google.android.apps.docs</item>
+        <item>com.google.android.apps.maps</item>
+        <item>com.waze</item>
+        <item>com.ubercab</item>
+        <item>com.grabtaxi.passenger</item>
+        <item>com.airbnb.android</item>
+        <item>com.booking</item>
+        <item>com.amazon.mShop.android.shopping</item>
+        <item>com.ebay.mobile</item>
+        <item>com.alibaba.aliexpresshd</item>
+        <item>com.shopee.ph</item>
+        <item>com.shopee.id</item>
+        <item>com.shopee.my</item>
+        <item>com.shopee.sg</item>
+        <item>com.shopee.vn</item>
+        <item>com.lazada.android</item>
+        <item>com.tokopedia.tkpd</item>
+        <item>com.duolingo</item>
+        <item>com.medium.reader</item>
+        <item>com.nytimes.android</item>
+        <item>com.android.chrome</item>
+        <item>org.mozilla.firefox</item>
+        <item>com.microsoft.emmx</item>
+        <item>com.opera.browser</item>
+        <item>com.brave.browser</item>
+    </string-array>
+</resources>
