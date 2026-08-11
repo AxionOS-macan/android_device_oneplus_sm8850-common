@@ -10,6 +10,7 @@ tunnel.audio.encode=true
 use.voice.path.for.pcm.voip=true
 
 # Bluetooth
+persist.bluetooth.btsnoopdefaultmode=disabled
 bluetooth.leaudio.dual_bidirection_swb.supported=true
 persist.bluetooth.ble.bg_cn.ctrl.mode=1
 persist.bluetooth.bqr.choppy_threshold=1,1

@@ -80,7 +80,6 @@ persist.bluetooth.airpods_support=false
 persist.bluetooth.avrcp.force_error_to_pause=true
 persist.bluetooth.bluetooth_asd_enable=true
 persist.bluetooth.bluetooth_version=6.0
-persist.bluetooth.btsnoopdefaultmode=disabled
 persist.bluetooth.choppy_heal.feature_mask=0x1E
 persist.bluetooth.current.scanmode.iac=NONE
 persist.bluetooth.dc_sar.support=true
