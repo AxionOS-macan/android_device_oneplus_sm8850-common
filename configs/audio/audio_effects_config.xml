@@ -19,6 +19,9 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <library name="quasar" path="libquasar.so"/>
         <!--AxionFX-->
         <library name="axionfx" path="libaxionfxaidl.so"/>
+        <!--OReality Audio-->
+        <library name="oppo_audiox_sw_effects" path="libOplusAudioxAidl.so"/>
+
     </libraries>
 
     <effects>
@@ -70,6 +73,9 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <effect name="quasar" library="quasar" uuid="71d0e2ee-e44d-483d-a809-09e75ee55ecd"/>
         <!--AxionFX-->
         <effect name="axionfx" library="axionfx" uuid="f35cb927-a887-4f3d-847f-770634486d53" type="5867be72-4060-4c55-a378-c1cdef3e1353"/>
+        <!--OReality Audio-->
+        <effect name="oppo_audiox_sw_effects" library="oppo_audiox_sw_effects" uuid="41f6c0f4-5d8f-11ec-bf63-0242ac130002" type="ec7178ec-e5e1-4432-a3f4-4657e6795210"/>
+
     </effects>
 
     <postprocess>
