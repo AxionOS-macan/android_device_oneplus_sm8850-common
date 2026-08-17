@@ -519,7 +519,6 @@ vendor/bin/init.kernel.post_boot-canoe.sh
 vendor/bin/init.qcom.class_core.sh
 vendor/bin/init.qti.kernel.debug-alor.sh
 vendor/bin/init.qti.kernel.debug-canoe.sh
-vendor/bin/init.qti.kernel.debug-ftrace.sh
 vendor/bin/init.qti.kernel.debug.sh
 vendor/bin/init.qti.kernel.early_debug-canoe.sh
 vendor/bin/init.qti.kernel.early_debug.sh
