@@ -177,6 +177,8 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('libQnnSystem.so')
         .add_line_if_missing('libQnnHtpV81Stub.so')
         .add_line_if_missing('libQnnGpu.so'),
+    'vendor/etc/perf/perfboostsconfig.xml': blob_fixup()
+        .regex_replace(r'Enable="false"', r'Enable="true"'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
