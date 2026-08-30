@@ -182,7 +182,7 @@ TARGET_USES_VULKAN := true
 PRODUCT_PACKAGES += \
     charger_fstab.qcom \
     fstab.qcom \
-    fstab.qcom.vendor_ramdisk \
+    fstab.qcom.first_stage_ramdisk \
     init.class_main.sh \
     init.oplus.rc \
     init.kernel.post_boot-alor_default_6_2.sh \
