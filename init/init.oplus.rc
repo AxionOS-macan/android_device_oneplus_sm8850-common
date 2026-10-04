@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+on init
+    # Media
+    setprop vendor.media.system.build_codename 0
+
 on post-fs-data
     # ADSP ramdump
     mkdir /data/vendor/mmdump 0777 system system
