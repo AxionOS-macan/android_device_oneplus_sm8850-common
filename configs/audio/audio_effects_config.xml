@@ -20,6 +20,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <library name="dvl" path="libdlbvolaidl.so"/>
         <library name="gamedap" path="libswgamedapaidl.so"/>
         <!-- DOLBY END -->
+        <library name="spatializersw" path="libOplusSpatializerAidl.so"/>
     </libraries>
 
     <effects>
@@ -71,6 +72,7 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <effect name="dlb_notification_listener" library="dvl" uuid="1f0091e3-6ad8-40fe-9b09-5948f9a26e7e" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
         <effect name="gamedap" library="gamedap" uuid="3783c334-d3a0-4d13-874f-0032e5fb80e2" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
         <!-- DOLBY END -->
+        <effect name="spatializer" library="spatializersw" uuid="de4d6aaf-4e9d-473d-8168-4ce92d50a637"/>
     </effects>
 
     <preprocess>
