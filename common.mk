@@ -98,9 +98,6 @@ PRODUCT_PACKAGES += \
 $(call inherit-product-if-exists, device/oneplus/sm8850-common/bypass_charging/bypasscharging.mk)
 
 # Camera
-PRODUCT_PACKAGES += \
-    android.hardware.camera.provider-V3-ndk.vendor
-
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.concurrent.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.concurrent.xml \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
