@@ -174,7 +174,16 @@ blob_fixups: blob_fixups_user_type = {
         .add_line_if_missing('libQnnHtpV81Stub.so')
         .add_line_if_missing('libQnnGpu.so'),
     'vendor/etc/perf/perfboostsconfig.xml': blob_fixup()
-        .regex_replace(r'Enable="false"', r'Enable="true"'),
+        .regex_replace(r'Enable="false"', r'Enable="true"')
+        .regex_replace(
+            r'(\n    </PerfBoost>)',
+            '\n\n        <!-- Expensive Rendering -->'
+            '\n        <!-- GPU - min clock 342 MHz -->'
+            '\n        <Config'
+            '\n            Id="0x000010A5" Enable="true" Timeout="0" Target="canoe"'
+            '\n            Resources="0x42830000, 342" />'
+            r'\1',
+        ),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .regex_replace(r'sensors\.qsh\.so', 'sensors.fusionlight.so'),
 }  # fmt: skip
