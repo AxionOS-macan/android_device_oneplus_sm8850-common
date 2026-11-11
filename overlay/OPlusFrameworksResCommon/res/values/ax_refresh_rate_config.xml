@@ -110,5 +110,110 @@
         <item>com.microsoft.emmx</item>
         <item>com.opera.browser</item>
         <item>com.brave.browser</item>
+
+        <!-- More messaging and social -->
+        <item>com.facebook.orca</item>
+        <item>com.instagram.barcelona</item>
+        <item>xyz.blueskyweb.app</item>
+        <item>org.joinmastodon.android</item>
+        <item>com.tumblr</item>
+        <item>com.quora.android</item>
+        <item>org.thoughtcrime.securesms</item>
+        <item>com.google.android.apps.messaging</item>
+        <item>com.Slack</item>
+        <item>com.microsoft.teams</item>
+        <item>us.zoom.videomeetings</item>
+        <item>com.microsoft.office.outlook</item>
+        <item>ch.protonmail.android</item>
+
+        <!-- More video, music, and podcasts -->
+        <item>com.crunchyroll.crunchyroid</item>
+        <item>com.plexapp.android</item>
+        <item>org.videolan.vlc</item>
+        <item>org.xbmc.kodi</item>
+        <item>org.schabi.newpipe</item>
+        <item>app.revanced.android.youtube</item>
+        <item>deezer.android.app</item>
+        <item>com.aspiro.tidal</item>
+        <item>com.pandora.android</item>
+        <item>au.com.shiftyjelly.pocketcasts</item>
+        <item>com.audible.application</item>
+
+        <!-- Reading and news -->
+        <item>com.amazon.kindle</item>
+        <item>com.google.android.apps.books</item>
+        <item>com.google.android.apps.magazines</item>
+        <item>org.wikipedia</item>
+        <item>com.naver.linewebtoon</item>
+        <item>com.substack.app</item>
+        <item>com.devhd.feedly</item>
+        <item>com.flyersoft.moonreader</item>
+
+        <!-- Productivity and office -->
+        <item>com.google.android.keep</item>
+        <item>com.google.android.calendar</item>
+        <item>com.google.android.apps.docs.editors.docs</item>
+        <item>com.google.android.apps.docs.editors.sheets</item>
+        <item>com.google.android.apps.docs.editors.slides</item>
+        <item>com.google.android.apps.translate</item>
+        <item>com.microsoft.office.word</item>
+        <item>com.microsoft.office.excel</item>
+        <item>com.microsoft.office.powerpoint</item>
+        <item>com.microsoft.office.onenote</item>
+        <item>com.adobe.reader</item>
+        <item>notion.id</item>
+        <item>md.obsidian</item>
+        <item>com.todoist</item>
+        <item>com.trello</item>
+
+        <!-- Shopping and food delivery -->
+        <item>com.einnovation.temu</item>
+        <item>com.zzkko</item>
+        <item>com.walmart.android</item>
+        <item>com.etsy.android</item>
+        <item>com.flipkart.android</item>
+        <item>com.taobao.taobao</item>
+        <item>com.jingdong.app.mall</item>
+        <item>com.xunmeng.pinduoduo</item>
+        <item>com.dd.doordash</item>
+        <item>com.ubercab.eats</item>
+        <item>com.global.foodpanda.android</item>
+        <item>com.starbucks.mobilecard</item>
+
+        <!-- Travel and transit -->
+        <item>me.lyft.android</item>
+        <item>ee.mtakso.client</item>
+        <item>com.agoda.mobile.consumer</item>
+        <item>com.expedia.bookings</item>
+        <item>com.tripadvisor.tripadvisor</item>
+        <item>ctrip.english</item>
+        <item>com.citymapper.app.release</item>
+
+        <!-- Banking, payments, and wallets -->
+        <item>com.paypal.android.p2pmobile</item>
+        <item>com.google.android.apps.walletnfcrel</item>
+        <item>com.revolut.revolut</item>
+        <item>com.transferwise.android</item>
+        <item>com.squareup.cash</item>
+        <item>com.venmo</item>
+        <item>com.eg.android.AlipayGphone</item>
+        <item>com.phonepe.app</item>
+        <item>net.one97.paytm</item>
+
+        <!-- Korea -->
+        <item>com.kakao.talk</item>
+        <item>com.nhn.android.search</item>
+        <item>net.daum.android.daum</item>
+        <item>com.nhn.android.nmap</item>
+        <item>net.daum.android.map</item>
+        <item>com.kakao.taxi</item>
+        <item>com.coupang.mobile</item>
+        <item>com.sampleapp</item>
+        <item>com.towneers.www</item>
+        <item>viva.republica.toss</item>
+        <item>com.kakaobank.channel</item>
+        <item>com.iloen.melon</item>
+        <item>net.cj.cjhv.gs.tving</item>
+        <item>kr.co.captv.pooqV2</item>
     </string-array>
 </resources>
