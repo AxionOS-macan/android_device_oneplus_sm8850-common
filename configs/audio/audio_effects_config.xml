@@ -21,7 +21,11 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <library name="axionfx" path="libaxionfxaidl.so"/>
         <!--OReality Audio-->
         <library name="oppo_audiox_sw_effects" path="libOplusAudioxAidl.so"/>
-
+        <!-- DOLBY START -->
+        <library name="dap" path="libswdapaidl.so"/>
+        <library name="dvl" path="libdlbvolaidl.so"/>
+        <library name="gamedap" path="libswgamedapaidl.so"/>
+        <!-- DOLBY END -->
     </libraries>
 
     <effects>
@@ -75,7 +79,14 @@ SPDX-License-Identifier: BSD-3-Clause-Clear
         <effect name="axionfx" library="axionfx" uuid="f35cb927-a887-4f3d-847f-770634486d53" type="5867be72-4060-4c55-a378-c1cdef3e1353"/>
         <!--OReality Audio-->
         <effect name="oppo_audiox_sw_effects" library="oppo_audiox_sw_effects" uuid="41f6c0f4-5d8f-11ec-bf63-0242ac130002" type="ec7178ec-e5e1-4432-a3f4-4657e6795210"/>
-
+        <!-- DOLBY START -->
+        <effect name="dap" library="dap" uuid="9d4921da-8225-4f29-aefa-39537a04bcaa" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
+        <effect name="dlb_music_listener" library="dvl" uuid="40f66c8b-5aa5-4345-8919-53ec431aaa98" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
+        <effect name="dlb_ring_listener" library="dvl" uuid="21d14087-558a-4f21-94a9-5002dce64bce" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
+        <effect name="dlb_alarm_listener" library="dvl" uuid="6aff229c-30c6-4cc8-9957-dbfe5c1bd7f6" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
+        <effect name="dlb_notification_listener" library="dvl" uuid="1f0091e3-6ad8-40fe-9b09-5948f9a26e7e" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
+        <effect name="gamedap" library="gamedap" uuid="3783c334-d3a0-4d13-874f-0032e5fb80e2" type="fa81de0e-588b-11ed-9b6a-0242ac120002"/>
+        <!-- DOLBY END -->
     </effects>
 
     <postprocess>
