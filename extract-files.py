@@ -81,7 +81,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/libsdmclient.so',
         'vendor/lib64/libstandbyfeature.so',
         'vendor/lib64/libvideooptfeature.so',
-        'vendor/lib64/soundfx/libquasar.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so'),
     'odm/etc/gps.conf': blob_fixup()
@@ -132,7 +131,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/soundfx/libqcompostprocbundle.so',
         'vendor/lib64/soundfx/libqcomvisualizer.so',
         'vendor/lib64/soundfx/libqcomvoiceprocessing.so',
-        'vendor/lib64/soundfx/libvolumelistener.so',
     ): blob_fixup()
         .replace_needed('android.media.audio.common.types-V5-ndk.so', 'android.media.audio.common.types-V4-ndk.so'),
     'vendor/lib64/libaudioserviceexampleimpl.so': blob_fixup()

@@ -158,9 +158,7 @@ vendor/lib64/vendor.qti.hardware.qasr-V3-ndk.so
 
 # Audio configs
 vendor/etc/audio/sku_alor/plugin_manager.xml
-vendor/etc/audio/sku_alor/quasar_config.xml
 vendor/etc/audio/sku_canoe/plugin_manager.xml
-vendor/etc/audio/sku_canoe/quasar_config.xml
 vendor/etc/HapticsPolicy.xml
 vendor/etc/Hapticsconfig.xml
 vendor/etc/card-defs.xml
@@ -170,8 +168,6 @@ vendor/etc/usecaseKvManager.xml
 vendor/lib64/soundfx/libqcompostprocbundle.so
 vendor/lib64/soundfx/libqcomvisualizer.so
 vendor/lib64/soundfx/libqcomvoiceprocessing.so
-vendor/lib64/soundfx/libquasar.so
-vendor/lib64/soundfx/libvolumelistener.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@aidl-service-qti

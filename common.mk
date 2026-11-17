@@ -48,7 +48,6 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libtinycompress \
     libtinyalsav2 \
-    libvolumelistener \
     libbundleaidl \
     libdownmixaidl \
     libdynamicsprocessingaidl \
