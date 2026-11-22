@@ -1,3 +1,0 @@
-# BypassChargingTile
-allow system_app vendor_sysfs_usb_supply:dir { search };
-allow system_app vendor_sysfs_usb_supply:file { read write open getattr };
